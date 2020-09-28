@@ -17,6 +17,12 @@
 + Open source oriented.
 
 #### 3. Files and Filesystems
++ **Drives** (permanent storage) -> physical system = Hardware
++ **Volume** is a partition of a drive that can contain a filesystem.
++ There are mainly two categories of file formats: **Binary** and **Text files**.
++ The Encoding of text files is a table that maps binary code to characters/symbols (letters, digits, punctuation, etc). E.g. ASCII, UTF8, UTF16, etc.  
++ In text files, 1 byte = 8 bits = 1 character.
++ This allows 2^8 different combinations (256 possible character combinations).  
 
 #### 4. Preparation steps
 
