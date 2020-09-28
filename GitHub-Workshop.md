@@ -25,6 +25,11 @@
 + This allows 2^8 different combinations (256 possible character combinations).  
 
 #### 4. Preparation steps
++ Install Typora (or other markdown editor).
++ Install Git:
+  ++ Windows
+  ++ macOS (via XCode) -> already installed in mine (git version 2.24.3 Apple Git-128)
+  ++ Linux (nothing to be done - it comes pre-installed) -> (git version 2.25.1)
 
 ### B. Git Mechanics
 ![Git Data Transport Commands](/data1/iduarte/Projects/UAlg/DEvoCancer/workshops/git-tutorial/git-mechanics.png)
