@@ -34,6 +34,64 @@
 ### B. Git Mechanics
 ![Git Data Transport Commands](/data1/iduarte/Projects/UAlg/DEvoCancer/workshops/git-tutorial/git-mechanics.png)
 
++ Workspace is the folder of our project -> create one and put a markdown file in it.
++ After installing Git:
+
+**1. Setting up the system (once per computer/project)**
+```
+git config --global user.name "I Duarte"
+git config --global user.email "iduarte.scientist@gmail.com"
+
+# Check that the global settings are correct
+git config --global --list
+
+# Note: We can have different settings for individual project:
+git config --list
+
+```
+
+**2. Create a Git repository**
+
+```
+# 1. Navigate to the folder of my project
+cd /path/to/my/project/folder
+
+# 2. Create a Git repository (it creates a ".git" hidden folder that will allow the tracking of changes)
+git init
+
+# 3. Check the status of the newly created repository
+git status
+
+# 4. Add the markdown file to the list of files to be tracked for changes
+git add file-name.md
+
+# 4.1. Check again the status of the repository (make sure that the previous command worked)
+git status
+
+# 5. Commit the changes to the file selected by "git add" to the repository
+git commit
+
+# 5.1. This command opens the default Git text editor (in my Linux system is Vim)
+ - Add the title of the message explaining the changes (<80 chars)
+ - Add 2 new lines (press enter twice)
+ - Add a longer description of the the commit/changes
+
+  # To change the default Git text editor, run:
+  git config --global core.editor editorname
+
+```
+
+**3. Interaction with your new Git Repository**
+
+```
+# Show all the commits done so far
+git log
+
+# Check if there are changes in the local file
+git status
+
+```
+
 #### 1. Setting up the system
 
 #### 2. Check that the global settings are correct
