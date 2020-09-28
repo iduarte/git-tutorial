@@ -32,7 +32,7 @@
   ++ Linux (nothing to be done - it comes pre-installed) -> (git version 2.25.1)
 
 ### B. Git Mechanics
-![Git Data Transport Commands](/data1/iduarte/Projects/UAlg/DEvoCancer/workshops/git-tutorial/git-mechanics.png)
+![Git Data Transport Commands](./git-mechanics.png)
 
 + Workspace is the folder of our project -> create one and put a markdown file in it.
 + After installing Git:
@@ -63,7 +63,7 @@ git init
 git status
 
 # 4. Add the markdown file to the list of files to be tracked for changes
-git add file-name.md
+git add file-name
 
 # 4.1. Check again the status of the repository (make sure that the previous command worked)
 git status
@@ -77,7 +77,7 @@ git commit
  - Add a longer description of the the commit/changes
 
   # To change the default Git text editor, run:
-  git config --global core.editor editorname
+  git config --global core.editor neweditorname
 
 ```
 
