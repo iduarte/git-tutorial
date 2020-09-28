@@ -27,6 +27,7 @@
 #### 4. Preparation steps
 
 ### B. Git Mechanics
+![Git Data Transport Commands](/data1/iduarte/Projects/UAlg/DEvoCancer/workshops/git-tutorial/git-mechanics.png)
 
 #### 1. Setting up the system
 
