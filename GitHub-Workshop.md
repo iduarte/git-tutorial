@@ -155,29 +155,29 @@ git clone github.com/repositoryname
 
 ```
 
-### D. TL;DR
+### D. TL;DR | For the impatient | Short recap
 
-The usual order of Git commands used for the impatient:
+Minimum set of commands required to setup a Git version control of a workspace/project.
 
-#### Create a local Git repository & Remote GitHub repository
+#### 1. Create a local Git repository & Remote GitHub repository
 
 **Required only once per project/folder**
 
 ```
-# Navigate to the project folder
+# Open a Terminal and navigate to the project folder
 cd /path/to/my/project/folder
 
-# 1. Create a Local Git
+# 1.1. Create a Local Git
 git init
 
-# 2. ONLINE | Create a GitHub repository (no README or any other files)
+# 1.2. ONLINE | Create a GitHub repository (no README or any other files)
 
-# 3. Link the local Git (myGitName) to the Remote GitHub
+# 1.3. Link the local Git (myGitName) to the Remote GitHub
 git remote add myGitName https://github.com/username/repositoryname
 
 ```
 
-#### Routine commands for fast Git update
+#### 2. Order of routine commands for fast Git version control
 
 ```
 # 1. Navigate to the directory where the local repository is set
@@ -193,7 +193,7 @@ git add filenames
 # 4. Commit the changes to the local repository
 git commit -m "Describe the changes made."
 
-# 5. Check the status/names of the remote repositories added
+# 5. Check the status/names of the remote repositories already set
 git remote -v
 
 # 6. Push the local repository (myGitName) to the remote GitHub (master)
@@ -204,7 +204,7 @@ git push myGitName master
  # Check the history of commits
 git log
 
- # Check the differences between local file and last commit
+ # Check the differences between local files and last commit
 git diff
 
  # Graphical User Interface to see the local Git
