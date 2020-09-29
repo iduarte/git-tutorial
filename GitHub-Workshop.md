@@ -185,6 +185,12 @@ git push origin master
  # Check the history of commits
 git log
 
+ # Check the differences between local file and last commit
+git diff
+
+ # Graphical User Interface to see the local Git
+ gitk 
+
 ```
 
 _END_
