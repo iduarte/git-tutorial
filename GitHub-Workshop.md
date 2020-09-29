@@ -176,11 +176,14 @@ git commit -m "Describe the changes made."
 # 5. Add the local repository (named origin) to the remote GitHub
 git remote add origin https://github.com/username/repositoryname
 
-# 6. Push the local repository (named origin)
+# 6. Check the status of the remote add
+git remote -v
+
+# 7. Push the local repository (named origin)
   # previous command) to the remote GitHub (master)
 git push origin master  
 
-
+#################################################################
 # Other important commands:
  # Check the history of commits
 git log
@@ -189,7 +192,7 @@ git log
 git diff
 
  # Graphical User Interface to see the local Git
- gitk 
+ gitk
 
 ```
 
