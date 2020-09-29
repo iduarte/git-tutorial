@@ -157,11 +157,31 @@ git clone github.com/repositoryname
 
 ### D. TL;DR
 
-The usual order of Git commands used after the local (named origin) and remote repositories have been set:
+The usual order of Git commands used for the impatient:
+
+#### Create a local Git repository & Remote GitHub repository
+
+**Required only once per project/folder**
+
+```
+# Navigate to the project folder
+cd /path/to/my/project/folder
+
+# 1. Create a Local Git
+git init
+
+# 2. ONLINE | Create a GitHub repository (no README or any other files)
+
+# 3. Link the local Git (myGitName) to the Remote GitHub
+git remote add myGitName https://github.com/username/repositoryname
+
+```
+
+#### Routine commands for fast Git update
 
 ```
 # 1. Navigate to the directory where the local repository is set
-cd workspace/directory
+cd /path/to/my/project/folder
 
 # 2. Check the status of the changes
   # (which files have been modified)
@@ -173,15 +193,11 @@ git add filenames
 # 4. Commit the changes to the local repository
 git commit -m "Describe the changes made."
 
-# 5. Add the local repository (named origin) to the remote GitHub
-git remote add origin https://github.com/username/repositoryname
-
-# 6. Check the status of the remote add
+# 5. Check the status/names of the remote repositories added
 git remote -v
 
-# 7. Push the local repository (named origin)
-  # previous command) to the remote GitHub (master)
-git push origin master  
+# 6. Push the local repository (myGitName) to the remote GitHub (master)
+git push myGitName master  
 
 #################################################################
 # Other important commands:
