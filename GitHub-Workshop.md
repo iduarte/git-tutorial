@@ -155,4 +155,36 @@ git clone github.com/repositoryname
 
 ```
 
+### D. TL;DR
+
+The usual order of Git commands used after the local (named origin) and remote repositories have been set:
+
+```
+# 1. Navigate to the directory where the local repository is set
+cd workspace/directory
+
+# 2. Check the status of the changes
+  # (which files have been modified)
+git status
+
+# 3. Add the files that have been modified
+git add filenames
+
+# 4. Commit the changes to the local repository
+git commit -m "Describe the changes made."
+
+# 5. Add the local repository (named origin) to the remote GitHub
+git remote add origin https://github.com/username/repositoryname
+
+# 6. Push the local repository (named origin)
+  # previous command) to the remote GitHub (master)
+git push origin master  
+
+
+# Other important commands:
+ # Check the history of commits
+git log
+
+```
+
 _END_
