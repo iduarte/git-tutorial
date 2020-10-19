@@ -210,6 +210,28 @@ git diff
  # Graphical User Interface to see the local Git
  gitk
 
+# More about git remote commands
+git remote -v                  # Lists all the remotes that are configured
+git remote add [name] [url]    # Used to add a new remote
+git remote remove [name]       # Removes a remote. Does not affect the remote repo; just removes the link to it from the local repo.
+git remote set-url [name] [newurl]    # Changes the URL that is associated with the remote.
+git remote rename [oldname] [newname] # Changes the local alias by which a remote is known - its local name.  
 ```
 
+#### 3. Basic Collaborative Workflow
+
+```
+# 1. Update your local repo
+git pull origin master
+
+# 2. Make your changes and stage them
+git add
+
+# 3. Commit your changes
+git commit -m
+
+# 4. Upload the changes to GitHub
+git push origin master
+
+```
 _END_
