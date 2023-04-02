@@ -196,8 +196,8 @@ git commit -m "Describe the changes made."
 # 5. Check the status/names of the remote repositories already set
 git remote -v
 
-# 6. Push the local repository (myGitName) to the remote GitHub (master)
-git push myGitName master  
+# 6. Push the local repository (origin) to the remote GitHub (master)
+git push origin master  
 
 #################################################################
 # Other important commands:
