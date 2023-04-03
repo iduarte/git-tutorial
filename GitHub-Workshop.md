@@ -234,4 +234,31 @@ git commit -m
 git push origin master
 
 ```
+
+#### 4. Useful Git commands
+
+```
+# Reconcile histories between local and remote branches 
+git config pull.rebase false  # merge
+git config pull.rebase true   # rebase
+git config pull.ff only       # fast-forward only
+or
+git pull --rebase origin master # one time only option
+
+# About branches
+git branch                    # list local branches (star indicates the current working branch)
+git branch -a                 # list all local and remote branches
+git branch <new_branch_name>  # Create a new branch
+
+# Go to previous versions of the code (the commit_hash is given by the `git log` command)
+git checkout <commit_hash>
+
+# Go back to the latest commit (newest version of the project code)
+git checkout master
+
+# Merging branches
+git merge <branch_name_to_merge_into_currrent_working_branch>
+
+```
+
 _END_
