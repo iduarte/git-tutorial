@@ -261,4 +261,16 @@ git merge <branch_name_to_merge_into_currrent_working_branch>
 
 ```
 
+### Setting up Git to my computer & Adding keys to GitHub
+
+Good links with instructions:
+
+[Set up Git](https://docs.github.com/en/get-started/quickstart/set-up-git)
+[SSH Keys](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
+
+[SSH keys | Simple Instructions](https://kbroman.org/github_tutorial/pages/first_time.html)
+
+
+
+
 _END_
